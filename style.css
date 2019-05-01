@@ -1,0 +1,41 @@
+body {
+    background: #50514f;
+    color: fff;
+    font-family: open sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600px;
+    border: 3px solid #fff;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    height: 100 vh;
+}
+
+#result {
+    font-size: 36px;
+    color: #fff;
+}
+
+#ans {
+    color: #fff;
+    padding: 20px;
+    font-size: 26px;
+    background: transparent;
+    border: none;
+}
+
+#ans:focus {
+    outline: 0px;
+    outline-offset: 0;
+}
